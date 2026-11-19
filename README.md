@@ -37,6 +37,17 @@ Fonte: [Referência SSML da Alexa — audio](https://developer.amazon.com/en-US/
 
 O GitHub Pages atende HTTPS com certificado válido e não exige autenticação.
 
+## Áudios para o Voice Monkey
+
+O [Voice Monkey](https://voicemonkey.io/docs/media) documenta como formato suportado **MP3 a 44,1 kHz ou 48 kHz, mono ou estéreo**, com até 240 s. Esse padrão é diferente do da tag SSML `<audio>` (MPEG-2, 48 kbps, até 24 kHz), por isso há duas pastas:
+
+| Pasta | Para quê | Padrão |
+|---|---|---|
+| `audio/` | skills Alexa próprias (SSML `<audio>`) | MPEG-2, 48 kbps, 16/22,05/24 kHz. O CI valida. |
+| `audio-voicemonkey/` | parâmetro `audio` da API do Voice Monkey | MP3 44,1 kHz mono |
+
+URL de exemplo (Voice Monkey): `https://<USUARIO>.github.io/monkey-voice-assets/audio-voicemonkey/portcastelo.mp3`
+
 ## Como adicionar um novo áudio
 
 Requer `ffmpeg` instalado.
