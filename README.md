@@ -48,6 +48,11 @@ O [Voice Monkey](https://voicemonkey.io/docs/media) documenta como formato supor
 
 URL de exemplo (Voice Monkey): `https://<USUARIO>.github.io/monkey-voice-assets/audio-voicemonkey/portcastelo.mp3`
 
+| Arquivo | Duração | Uso |
+|---|---|---|
+| `audio-voicemonkey/portcastelo.mp3` | 8,9 s | teste inicial |
+| `audio-voicemonkey/porteiro-castelo.mp3` | 21,3 s | campainha (botão Zigbee), tocado pelo Flow do Voice Monkey |
+
 ## Como adicionar um novo áudio
 
 Requer `ffmpeg` instalado.
