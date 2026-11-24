@@ -52,6 +52,7 @@ URL de exemplo (Voice Monkey): `https://<USUARIO>.github.io/monkey-voice-assets/
 |---|---|---|
 | `audio-voicemonkey/portcastelo.mp3` | 8,9 s | teste inicial |
 | `audio-voicemonkey/porteiro-castelo.mp3` | 21,3 s | campainha (botão Zigbee), tocado pelo Flow do Voice Monkey |
+| `audio-voicemonkey/porteiro-castelo-alto.mp3` | 21,3 s | mesma gravação, mais forte (≈ -12 LUFS, pico -1,3 dBFS; a versão acima fica em ≈ -16 LUFS) |
 
 ## Como adicionar um novo áudio
 
